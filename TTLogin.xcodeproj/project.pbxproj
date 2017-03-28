@@ -14,6 +14,9 @@
 		ED31A28F1E894CE200E058B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED31A28D1E894CE200E058B8 /* Main.storyboard */; };
 		ED31A2911E894CE200E058B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED31A2901E894CE200E058B8 /* Assets.xcassets */; };
 		ED31A2941E894CE200E058B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED31A2921E894CE200E058B8 /* LaunchScreen.storyboard */; };
+		ED31A2FE1E8A046700E058B8 /* TTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED31A2FD1E8A046700E058B8 /* TTLoginViewController.m */; };
+		ED31A3001E8A04AF00E058B8 /* TTLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED31A2FF1E8A04AF00E058B8 /* TTLogin.storyboard */; };
+		ED31A3081E8A146C00E058B8 /* Target_TTLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = ED31A3071E8A146C00E058B8 /* Target_TTLogin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,11 @@
 		ED31A2901E894CE200E058B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED31A2931E894CE200E058B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED31A2951E894CE200E058B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED31A2FC1E8A046700E058B8 /* TTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginViewController.h; sourceTree = "<group>"; };
+		ED31A2FD1E8A046700E058B8 /* TTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginViewController.m; sourceTree = "<group>"; };
+		ED31A2FF1E8A04AF00E058B8 /* TTLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TTLogin.storyboard; sourceTree = "<group>"; };
+		ED31A3061E8A146C00E058B8 /* Target_TTLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TTLogin.h; sourceTree = "<group>"; };
+		ED31A3071E8A146C00E058B8 /* Target_TTLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TTLogin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 		ED31A2801E894CE200E058B8 /* TTLogin */ = {
 			isa = PBXGroup;
 			children = (
+				ED31A2FB1E8A046700E058B8 /* TTLogin */,
 				ED31A2841E894CE200E058B8 /* AppDelegate.h */,
 				ED31A2851E894CE200E058B8 /* AppDelegate.m */,
 				ED31A2871E894CE200E058B8 /* FirstViewController.h */,
@@ -82,6 +91,26 @@
 				ED31A2821E894CE200E058B8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED31A2FB1E8A046700E058B8 /* TTLogin */ = {
+			isa = PBXGroup;
+			children = (
+				ED31A3051E8A146C00E058B8 /* Targets */,
+				ED31A2FC1E8A046700E058B8 /* TTLoginViewController.h */,
+				ED31A2FD1E8A046700E058B8 /* TTLoginViewController.m */,
+				ED31A2FF1E8A04AF00E058B8 /* TTLogin.storyboard */,
+			);
+			path = TTLogin;
+			sourceTree = "<group>";
+		};
+		ED31A3051E8A146C00E058B8 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				ED31A3061E8A146C00E058B8 /* Target_TTLogin.h */,
+				ED31A3071E8A146C00E058B8 /* Target_TTLogin.m */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +174,7 @@
 			files = (
 				ED31A2941E894CE200E058B8 /* LaunchScreen.storyboard in Resources */,
 				ED31A2911E894CE200E058B8 /* Assets.xcassets in Resources */,
+				ED31A3001E8A04AF00E058B8 /* TTLogin.storyboard in Resources */,
 				ED31A28F1E894CE200E058B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,7 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED31A3081E8A146C00E058B8 /* Target_TTLogin.m in Sources */,
 				ED31A28C1E894CE200E058B8 /* SecondViewController.m in Sources */,
+				ED31A2FE1E8A046700E058B8 /* TTLoginViewController.m in Sources */,
 				ED31A2861E894CE200E058B8 /* AppDelegate.m in Sources */,
 				ED31A2891E894CE200E058B8 /* FirstViewController.m in Sources */,
 				ED31A2831E894CE200E058B8 /* main.m in Sources */,
@@ -316,6 +348,7 @@
 				ED31A29A1E894CE200E058B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
